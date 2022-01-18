@@ -1,0 +1,55 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="WebApp.master.vb" Inherits="RetoVideoclub_ASP.WebApp" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <p>ELORRIETA FILMS</p>
+            <asp:ContentPlaceHolder ID="MainPage" runat="server">
+                
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="Menu" runat="server">
+                
+                <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px">
+                    <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="#5D7B9D" />
+                    <Items>
+                        <asp:MenuItem Text="Peliculas" Value="Peliculas">
+                            <asp:MenuItem Text="Visualizar" Value="Visualizar"></asp:MenuItem>
+                            <asp:MenuItem Text="Alquilar" Value="Alquilar"></asp:MenuItem>
+                            <asp:MenuItem Text="Comprar" Value="Comprar"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Cesta" Value="Cesta">
+                            <asp:MenuItem Text="Visualizar" Value="Visualizar"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#5D7B9D" />
+                </asp:Menu>
+                
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="UserMenu" runat="server">
+                
+            </asp:ContentPlaceHolder>
+
+            <footer>
+                ELORRIETA FILMS CORPORATION <br />
+                Alba , Xabier , Pablo y Markel G.
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
