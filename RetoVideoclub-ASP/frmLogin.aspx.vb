@@ -19,8 +19,27 @@ Public Class frmLogin
 
     Protected Sub ValidarUsuario(sender As Object, e As EventArgs)
         Dim UserId As Integer = 0
-
-
-
+        Dim constr As String = ConfigurationManager.ConnectionStrings("constr").ConnectionString
+        Using cnnBD As New SqlConnection(constr)
+            Using cmd As New SqlCommand("ValidarUsuario")
+                cmd.CommandType = CommandType.StoredProcedure
+                cmd.Parameters.AddWithValue("@Username", MiLogin.UserName)
+                cmd.Parameters.AddWithValue("@Password", MiLogin.Password)
+                cmd.Connection = cnnBD
+                cnnBD.Open()
+                UserId = Convert.ToInt32(cmd.ExecuteScalar())
+                cnnBD.Close()
+            End Using
+            Select Case UserId
+                Case -1
+                    MiLogin.FailureText = "Nombre de usuario y / o contraseña incorrecta."
+                    Exit Select
+                Case -2
+                    MiLogin.FailureText = "La cuenta no ha sido activada."
+                    Exit Select
+                Case Else
+                    FormsAuthentication.RedirectFromLoginPage(MiLogin.UserName, MiLogin.RememberMeSet)
+            End Select
+        End Using
     End Sub
 End Class
