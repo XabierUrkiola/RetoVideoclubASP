@@ -42,7 +42,8 @@
             </asp:ContentPlaceHolder>
 
             <asp:ContentPlaceHolder ID="UserMenu" runat="server">
-                
+                <asp:LoginName FormatString="Welcome {0}!" runat="server" />
+                <asp:LoginStatus runat="server" />
             </asp:ContentPlaceHolder>
 
             <footer>
