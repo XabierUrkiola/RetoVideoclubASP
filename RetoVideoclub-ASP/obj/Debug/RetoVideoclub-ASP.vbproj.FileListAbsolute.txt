@@ -74,7 +74,6 @@ C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debu
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub_ASP.Resources.resources
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.GenerateResource.cache
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.CopyComplete
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.dll
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\WebForms_Basic.xml
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.pdb

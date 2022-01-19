@@ -33,6 +33,9 @@
                         <asp:MenuItem Text="Cesta" Value="Cesta">
                             <asp:MenuItem Text="Visualizar" Value="Visualizar"></asp:MenuItem>
                         </asp:MenuItem>
+                        <asp:MenuItem Text="Cambiar Contraseña" Value="CambiarContrasenia">
+                            <asp:MenuItem Text="Visualizar" value="Visualizar"></asp:MenuItem>
+                        </asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
