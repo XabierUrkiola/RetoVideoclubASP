@@ -235,4 +235,3 @@ C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\Micros
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\es\System.Web.Optimization.resources.dll
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.CopyComplete
