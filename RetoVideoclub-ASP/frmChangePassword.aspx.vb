@@ -17,14 +17,15 @@ Public Class frmChangePassword
     Dim usuario As String = "admin"
 
     Protected Sub miChangePassword_ChangedPassword(sender As Object, e As EventArgs) Handles miChangePassword.ContinueButtonClick
-
         ConexionBBDD()
         ComprobarCambiarPass()
     End Sub
 
     Private Sub ConexionBBDD()
         ':::Nuestro objeto OleDbConnetion con la cadena de conexión y la ruta de la base
-        Dim cnnString As String = String.Format("Provider=Microsoft.Jet.Oledb.4.0; Data Source=C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\App_Data\EMPRESA.mdb")
+
+        Dim path = System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory(), "App_Data", "EMPRESA.mdb")
+        Dim cnnString As String = String.Format("Provider=Microsoft.Jet.Oledb.4.0; Data Source={0}", path)
         OleDbConnection = New OleDbConnection(cnnString)
         ':::Utilizamos el try para capturar posibles errores
 

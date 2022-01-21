@@ -26,7 +26,8 @@ Public Class frmLogin
     Private Sub ConexionBBDD()
         ':::Nuestro objeto OleDbConnetion con la cadena de conexión y la ruta de la base
 
-        Dim cnnString As String = String.Format("Provider=Microsoft.Jet.Oledb.4.0; Data Source=C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclub-ASP\App_Data\EMPRESA.mdb")
+        Dim path = System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory(), "App_Data", "EMPRESA.mdb")
+        Dim cnnString As String = String.Format("Provider=Microsoft.Jet.Oledb.4.0; Data Source={0}", path)
         OleDbConnection = New OleDbConnection(cnnString)
         ':::Utilizamos el try para capturar posibles errores
 
