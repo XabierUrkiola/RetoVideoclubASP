@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub miChangePassword_ChangedPassword(sender As Object, e As EventArgs) Handles miChangePassword.ChangedPassword
+
+    End Sub
 End Class
