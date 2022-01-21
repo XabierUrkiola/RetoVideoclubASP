@@ -25,6 +25,7 @@ Public Class frmLogin
 
     Private Sub ConexionBBDD()
         ':::Nuestro objeto OleDbConnetion con la cadena de conexión y la ruta de la base
+
         Dim cnnString As String = String.Format("Provider=Microsoft.Jet.Oledb.4.0; Data Source=C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\App_Data\EMPRESA.mdb")
         OleDbConnection = New OleDbConnection(cnnString)
         ':::Utilizamos el try para capturar posibles errores
@@ -55,8 +56,10 @@ Public Class frmLogin
             Dim pass = cmd.ExecuteScalar
 
             If pass = passEscrita Then
+                FormsAuthentication.RedirectFromLoginPage(MiLogin.UserName, MiLogin.RememberMeSet)
                 MessageBox.Show("Login correcto")
             Else
+
                 MessageBox.Show("Login incorrecto")
             End If
         Catch ex As Exception

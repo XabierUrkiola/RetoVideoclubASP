@@ -144,6 +144,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmChangePassword.aspx" />
     <Content Include="frmLogin.aspx" />
+    <Content Include="frmMain.aspx" />
     <Content Include="frmPeliculas.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -185,6 +186,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
+    <Content Include="WebApp.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
@@ -223,6 +225,13 @@
     <Compile Include="frmLogin.aspx.vb">
       <DependentUpon>frmLogin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmMain.aspx.designer.vb">
+      <DependentUpon>frmMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.aspx.vb">
+      <DependentUpon>frmMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmPeliculas.aspx.designer.vb">
       <DependentUpon>frmPeliculas.aspx</DependentUpon>
@@ -273,6 +282,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.vb">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebApp.Master.designer.vb">
+      <DependentUpon>WebApp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebApp.Master.vb">
+      <DependentUpon>WebApp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
