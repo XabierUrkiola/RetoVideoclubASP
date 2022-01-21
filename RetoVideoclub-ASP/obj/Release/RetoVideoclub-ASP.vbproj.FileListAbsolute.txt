@@ -70,9 +70,10 @@ C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideo
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\es\System.Web.Optimization.resources.dll
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub_ASP.Resources.resources
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.GenerateResource.cache
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.dll
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\WebForms_Basic.xml
-C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.pdb
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\RetoVideoclub-ASP.vbproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\RetoVideoclub_ASP.Resources.resources
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\RetoVideoclub-ASP.vbproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\RetoVideoclub-ASP.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\RetoVideoclub-ASP.dll
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\WebForms_Basic.xml
+C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Release\RetoVideoclub-ASP.pdb

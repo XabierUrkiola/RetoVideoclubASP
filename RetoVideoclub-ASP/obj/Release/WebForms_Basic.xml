@@ -82,6 +82,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:RetoVideoclub_ASP.frmMain._btn_Redireccion">
+<summary>
+Control btn_Redireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:RetoVideoclub_ASP.frmPeliculas._form1">
 <summary>
 Control form1.

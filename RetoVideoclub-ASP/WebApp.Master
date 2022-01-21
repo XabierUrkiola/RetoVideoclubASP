@@ -1,4 +1,5 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="WebApp.master.vb" Inherits="RetoVideoclub_ASP.WebApp" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" 
+    CodeBehind="WebApp.master.vb" Inherits="RetoVideoclub_ASP.WebApp" %>
 
 <!DOCTYPE html>
 
