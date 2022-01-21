@@ -13,6 +13,7 @@
             <asp:ChangePassword ID="miChangePassword" runat="server">
             </asp:ChangePassword>
         </div>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
     </form>
 </body>
 </html>
