@@ -235,6 +235,7 @@ C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\Micros
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\es\System.Web.Optimization.resources.dll
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+<<<<<<< HEAD
 C:\Users\in2dam-b\Desktop\Reto ASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.vbproj.CopyComplete
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\RetoVideoclub-ASP.dll.config
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\bin\RetoVideoclub-ASP.dll
@@ -315,3 +316,5 @@ C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideo
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.dll
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\WebForms_Basic.xml
 C:\Users\Admin\Desktop\Reto SGE Y DI\RetoVideoclubASP\RetoVideoclubASP\RetoVideoclub-ASP\obj\Debug\RetoVideoclub-ASP.pdb
+=======
+>>>>>>> ed67b26294d02f52bf1920695ffb52d5d7fdaa13
