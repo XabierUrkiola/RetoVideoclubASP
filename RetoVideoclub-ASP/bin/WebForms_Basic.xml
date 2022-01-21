@@ -55,6 +55,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:RetoVideoclub_ASP.frmChangePassword._LbTextContra">
+<summary>
+Control LbTextContra.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:RetoVideoclub_ASP.frmChangePassword._TextBox1">
+<summary>
+Control TextBox1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:RetoVideoclub_ASP.frmChangePassword._Button1">
 <summary>
 Control Button1.
